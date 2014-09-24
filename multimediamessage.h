@@ -10,7 +10,7 @@ private:
     string getFilePath();
 public:
     MultimediaMessage(string no, string t, string fp);
-    void show();
+    virtual void show();
 };
 
 #endif // MULTIMEDIAMESSAGE_H

@@ -6,7 +6,6 @@
 #include <ctime>
 #include <cstdio>
 #include <iomanip>
-//#include "stdio.h"
 
 using namespace std;
 
@@ -21,7 +20,7 @@ protected:
     string type;
 public:
     Message(string no, string t);
-    void show();
+    virtual void show();
 };
 
 #endif // MESSAGE_H

@@ -1,11 +1,11 @@
 #include "message.h"
 
 Message::Message(string no, string t) :
-    timestemp(getTimestemp())
+    timestemp(getTimestemp()),
+    type("SMS")
 {
-    type = "SMS";
-    text = t;
-    number = no;
+    text = (t);
+    number = (no);
 }
 
 // Show information about message

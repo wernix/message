@@ -2,12 +2,8 @@
 
 MultimediaMessage::MultimediaMessage(string no, string t, string fp) : Message(no, t)
 {
-    timestemp = getTimestemp();
-    number = no;
-    text = t;
-    //file_name = getFilePath();
-    file_name = fp;
-    type = "MMS";
+    type = ("MMS");
+    file_name = (fp);
 }
 
 // Get multimedia file from user path
